@@ -6,9 +6,53 @@
 
 
 /* BODY */
-
-#square{
-    width: 100px;
-    height: 100px;
+body{
+    background-color: rgb(20, 20, 66);
+}
+.square{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    min-height: 100px;
+    text-align: center;
     border: 1px solid black;
+    background-color: cornflowerblue;
+    color: antiquewhite;
+}
+
+.fizzbuzz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    min-height: 100px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(224, 60, 60);
+    color: black;
+}
+
+.buzz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    min-height: 100px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(199, 84, 170);
+    color: white;
+}
+
+.fizz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100px;
+    min-height: 100px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgb(201, 228, 83);
+    color: black;
 }
