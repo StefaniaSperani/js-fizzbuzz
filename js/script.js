@@ -13,7 +13,7 @@ for(let i = 1; i <= 100; i++){
     const wrapper = document.getElementsByClassName('wrapper');
     const myDiv = document.createElement('div');
     myDiv.className = 'square';
-    // console.log(myDiv);
+    console.log(myDiv);
 
     // se i numeri sono divisibili sia per 3 che per 5
     if((i % 3 == 0) && (i % 5 == 0)){
@@ -29,8 +29,7 @@ for(let i = 1; i <= 100; i++){
 
     // se non sono divisibili ne per 3 e nemmeno per 5
     } else{
-        console.log(i + 'else');
+        // console.log(i + 'else');
     }
 
-    wrapper.append(myDiv);
 };
