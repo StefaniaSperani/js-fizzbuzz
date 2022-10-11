@@ -6,8 +6,6 @@
 // Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
 
 const wrapper = document.querySelector('.wrapper');
-// console.log(wrapper);
-
 // creo un ciclo che mi dia dei numeri da 1 a 100
 for(let i = 1; i <= 100; i++){
     // console.log(i);
@@ -42,5 +40,6 @@ for(let i = 1; i <= 100; i++){
     }
 
     wrapper.append(myDiv);
+    // console.log(wrapper);
 
 };
